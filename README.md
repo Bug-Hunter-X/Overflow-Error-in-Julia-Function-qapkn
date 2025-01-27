@@ -1,0 +1,2 @@
+# Julia Overflow Error
+This repository demonstrates an uncommon error in Julia related to integer overflow when squaring large numbers.  The `myfunction` in `bug.jl` incorrectly handles this scenario. The solution in `bugSolution.jl` addresses this by using appropriately sized integer types or floating-point numbers to avoid overflow.
